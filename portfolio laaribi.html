@@ -2,102 +2,130 @@
 <html>
 <head>
 <title>basic html portfolio</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
 </head>
 
 
-<body>
-  
- <nav>
-  <h3>mohamed laaribi</h3>
-  <img src="https://scontent-pmo1-1.xx.fbcdn.net/v/t39.30808-6/279907279_5378497302209134_1635518697986138712_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=cvWDAtZZEGcAX-UpJks&_nc_ht=scontent-pmo1-1.xx&oh=00_AT_vs57QirtUMKunR1ED0klEpQYAJ-TsTxxjNQongNFRcg&oe=634F46BD" height="100">
-  <p> hi! my name is mohamed laaribi 
-  and I'm a future web developer welcome to my portfolio</p>
-  <ul>
+<body class="background-body">
+
+ <nav class="nav-content">
+
+
+<div>
+    <h1>Mohamed Laaribi</h1>
+  <img src="https://scontent-pmo1-1.xx.fbcdn.net/v/t39.30808-6/279907279_5378497302209134_1635518697986138712_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=cvWDAtZZEGcAX-UpJks&_nc_ht=scontent-pmo1-1.xx&oh=00_AT_vs57QirtUMKunR1ED0klEpQYAJ-TsTxxjNQongNFRcg&oe=634F46BD" height="250">
+  <h2> hi! my name is mohamed laaribi and I'm a future web developer welcome to my portfolio</h2>
+  </div>
+<div>  <ul>
+<li><a href=""> Home</a></li>
   <li><a href="#About Me" > About me</a></li>
-   <li><a href=""> Home</a></li>
     <li><a href="#Work" > Work</a></li>
      <li><a href="#Resume" > Resume</a></li>
       <li><a href="#Contact" > Contact</a></li>
-  </ul> 
+  </ul></div>
+
+  </div>
   </nav>
- 
- <header>
+
+ <header class="header-content">
    <p> I'm a fullstack student at GoMyCode willing to be skilled in frontend and backend development.
 Check out my project
-<a href="">portfolio</a> and online resume.</p>
-  <button type="button"><a href="">View my portfolio</a></button>
-  <button type="button"><a href="">View resume</a></button>
+<a id="pt" href="">portfolio</a> and online resume.</p>
+<a href="#" class="button">View my portfolio</a>
+<a href="#" class="button">View resume</a>
+
     </header>
     <hr>
-   
-   <article>
+
+   <article class="article-content">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EMG-qqcGvUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </article>
 
 
-      
-    <table>
+
+    <table class="table-content">
         <tr>
              <td>   <section>
-   <h3 id="About Me">About Me</h3> 
- <p> I am a new student at GoMyCode at the moment leanrning FullStack Web1 and in the next 9 months I will be Pro.</p>
+   <h3 id="About Me">About Me</h3>
+ <p> I am a new student at GoMyCode at the moment <br> leanrning FullStack Web1 and in the next 9 months <br />I will be Pro.</p>
      </section>
      </td>
 
-       <td>   <section> 
+       <td>   <section>
  <h3 id="Work">Work</h3>
  <p>
-I work as a seller in my E-commerce company 
+I work as a seller in my E-commerce company
   </p>
      </section>
      </td>
-   
+
    <tr> <td> <section>
  <h3 id="Resume">Resume</h3>
  <p>
 I am looking forward to build a great resume with GoMyCode
   </p>
     </section> </td>
-   
+
     <td><section>
  <h3 id="Contact">Contact</h3>
  <p>
 Feel free to contact me on the mail form below
- 
+
   </p>
    </section></td>
     </tr>
    </table>
 
 
-          
-          <footer>                 
-              <form width="1">
-    <h5> Please contact me for further projects</h5>
+
+          <footer class="footer-content">
+            <div>
+    <h2> Please contact me for further projects</h2>
       <div> Your Name:
-        <input type="text" name="name" placeholder="username">
+        <input class="input-content"type="text" name="name" placeholder="username">
         </div>
         <div>
         Email Address:
-        <input type="text" name="email" placeholder="jhon97@gmc.com">
+        <input class="input-content" type="text" name="email" placeholder="jhon97@gmc.com">
         </div>
         <div>
         Message:
-        <textarea name="message" placeholder="write whatever you want"></textarea>
+        <textarea class="input-content" name="message" placeholder="write whatever you want"></textarea>
         </div>
-        <input type="submit" value="Send">
-               </form> 
-   
-   <form>
-   <h5>Contact Me On</h5>
-     <select>
+        <input id="send-button" type="submit" value="Send">
+
+</div>
+</footer>
+
+
+   <form  class="form-content">
+   <h2>Contact Me On</h2>
+     <select class="select-content">
         <option value="Facebook">Facebook</option>
         <option value="Whatsapp">Whatsapp</option>
         <option value="Instgram">Instgram</option>
         <option value="Telegram">Telegram</option>
       </select>
-     </form>                      
-            </footer>
+     </form>
+
+
 </body>
 </html>
-

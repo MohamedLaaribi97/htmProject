@@ -1,0 +1,169 @@
+.nav-content {
+
+display: flex ;
+justify-content: space-between;
+
+}
+.nav-content li,ul{
+  display: flex;
+padding-right: 15px ;
+
+}
+.nav-content img{
+  border-radius: 55px;
+  margin-left: 411px;
+}
+.nav-content a{
+  color: yellow;
+  font-size: 2em;
+  text-decoration: none;
+  font-style: oblique;
+  font-style: bold;
+  font-family: monospace;
+
+}
+.nav-content h1{
+  font-size: 3.5em;
+  margin-bottom: auto;
+  margin-top: 15px;
+  color: white;
+  font-family: 'Fasthand', cursive;
+}
+
+.nav-content h2{
+  font-family:'Cairo', sans-serif;
+margin-left: 220px;
+font-style: bold,italic;
+
+}
+
+.background-body{
+ background-image: url(./assets/cx-min.jpg);
+ color: white;
+}
+
+ .nav-content a:hover{
+   color: grey;
+ }
+
+.header-content p{
+  font-size:2.5em;
+  margin: auto;
+  font-family: 'Cinzel Decorative', cursive;
+}
+#pt {
+  text-decoration: none;
+  color: yellow ;
+    font-size: 1.2em;
+}
+#pt:hover{
+  color: grey;
+}
+
+.button {
+  background-color: yellow;
+  border: none;
+  color: grey;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family:fantasy;
+
+}
+.button:hover {
+  background-color:grey;
+  color: yellow;
+
+}
+.button {
+border-radius: 50px;
+margin-left: 270px;
+}
+
+.article-content{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.table-content p{
+  font-size: 2em;
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.table-content h3{
+  font-size: 3em;
+  font-family:  'Finger Paint', cursive;
+}
+
+.footer-content{
+margin-left: 350px;
+margin-right: 500px;
+  background-image:url(./assets/footerbg.jpg);
+color: black;
+font-family: 'Licorice', cursive;
+font-size: 2em;
+}
+
+.form-content{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 75px;
+
+}
+
+.select-content{
+  border-radius: 15px;
+  color:grey;
+background-color: yellow;
+font-family: fantasy;
+font-style: oblique;
+}
+.select-content:hover{
+  background-color: grey;
+  color: yellow;
+
+}
+.select-content h2{
+font-size: 1.5em;
+font-style: italic;
+font-family: serif;
+color: grey;
+}
+
+.form-content h2 {
+  margin-right: 30px;
+}
+
+.footer-content h2{
+color: black;
+  font-size:1.7em;
+  font-style: italic;
+  font-style: bold;
+
+}
+.input-content{
+  display: flex;
+  margin-left: 160px;
+  border:solid;
+  color: black;
+border-radius: 7px;
+}
+
+#send-button{
+  margin-left: 200px;
+  padding: 15px 20px;
+  color: grey;
+  font-size: 1.2em;
+background-color: yellow;
+border-radius: 15px;
+}
+#send-button:hover{
+  color:yellow;
+  background-color: grey;
+}
